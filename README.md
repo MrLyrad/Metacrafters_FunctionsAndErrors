@@ -9,11 +9,14 @@ For this project, I decided to create a simple Smart Contract that lets users co
 ## Overview
 
 The following error handling functions found in `mySmartContract.sol` were defined as follows:
-**1. requireErrHandle(uint _i)**
+
+*1. requireErrHandle(uint _i)*
 This function ensures that the user input is a number divisible by 5.
-**2. assertErrHandle(uint _i)**
-This function ensures that the initial number of tokens is indeed 0.
-**3. revertErrHandle(uint _i)**
+
+*2. assertErrHandle(uint _i)*
+This function ensures that the initial number of tokens is more than 0.
+
+*3. revertErrHandle(uint _i)*
 This function ensures that the user input is not a negative number.
 
 ### Running the Contract in Remix IDE.
