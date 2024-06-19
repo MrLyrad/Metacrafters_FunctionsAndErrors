@@ -1,6 +1,6 @@
 # Smart Contract Project - Functions and Errors - ETH + AVAX
 
-In this project, we are tasked to utilize the following error handling functions: `require()`, `assert()`, and  `revert()`. The Solidity contract named `mySmartContract.sol` has the necessary Solidity code that enables the checking of various `uint`.
+In this project, we are tasked to utilize the following error handling functions: `require()`, `assert()`, and  `revert()`. The Solidity contract named `mySmartContract.sol` has the necessary Solidity code that enables the checking of various inputs from the user.
 
 ## Description
 
@@ -8,13 +8,15 @@ For this project, I decided to create a simple Smart Contract that lets users co
 
 ## Overview
 
-The following error handling functions found in `mySmartContract.sol` were defined as follows:
+The following functions found in `mySmartContract.sol` were defined as follows:
 
-*1. requireErrHandle(uint _i)* - This function ensures that the user input is a number divisible by 5.
+*1. addTokens(uint _i)* - This function ensures that the user input is a number divisible by 5 to add from the `tokenSupply`.
 
-*2. assertErrHandle(uint _i)* - This function ensures that the initial number of tokens is more than 0.
+*2. subTokens(uint _i)* - This function ensures that the user input is a number divisible by 5 to subtract from the `tokenSupply`.
 
-*3. revertErrHandle(uint _i)* - This function ensures that the user input is not a negative number.
+*3. showTokens()* - This function shows the number of tokens stored in the `tokenSupply`.
+
+*4. numSub()* - This function shows the number of subtractions the user is still able to perform, the initialized maximum subtractions is **2**.
 
 ### Running the Contract in Remix IDE.
 
